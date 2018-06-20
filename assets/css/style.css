@@ -445,7 +445,7 @@ textarea {
     height: 30%;
     width: 100%;
   }
- 
+
   .contimg img {
     display: block;
     margin-left: auto;
@@ -474,9 +474,9 @@ textarea {
   .pic3,
   .pic4,
   .pic5 {
-    margin-bottom:45px;
-    height:auto;
-      }
+    margin-bottom: 45px;
+    height: auto;
+  }
 
   .row1 {
     height: auto;
