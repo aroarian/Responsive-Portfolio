@@ -423,7 +423,11 @@ textarea {
     font-size: 14px;
   }
 
-  .container {
+  #port{
+    width: 75px;
+  }
+
+    .container {
     min-width: 332px;
   }
 
