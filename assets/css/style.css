@@ -1,7 +1,3 @@
-html {
-  position: relative;
-  min-height: 100%;
-}
 body {
   padding: 0;
   margin: 0;
@@ -11,7 +7,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  margin-bottom: 75px;
+  height: 100%;
+   
 }
 
 a:link {
@@ -97,18 +94,24 @@ a:active {
   text-align: left;
 }
 
+.uppercontainer {
+  height: 100%;
+  padding-top: 30px;
+    
+}
+
 .container {
   width: 80%;
   height: auto;
   max-width: 750px;
   min-height: 400px;
   background-color: #ffffff;
-  margin-top: 30px;
   margin-bottom: 75px;
   margin-left: 5%;
   margin-right: auto;
   border: 1px solid #0f2694;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+    
 }
 
 .container_two {
@@ -118,6 +121,7 @@ a:active {
   min-height: 600px;
   background-color: #ffffff;
   margin-top: 30px;
+  margin-bottom: 75px;
   margin-left: 5%;
   margin-right: auto;
   border: 1px solid #0f2694;
@@ -190,11 +194,10 @@ p {
   color: #777777;
 }
 
-footer {
+.footer {
   width: 100%;
   height: 70px;
-  position: relative;
-  bottom: -72px;
+  bottom: 0;
   background-color: #666666;
   border-top: 8px solid #0f2694;
   text-align: center;
@@ -400,6 +403,11 @@ textarea {
 }
 
 @media screen and (max-width: 640px) {
+  a:hover {
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
   .headcon {
     width: 100%;
   }
@@ -539,3 +547,32 @@ textarea {
     margin-right: auto;
   }
 }
+
+@media screen and (max-width: 321px) {
+  .container {
+    min-width: 85%;
+  }
+
+  .container_two {
+    min-width: 85%;
+  }
+
+  .container_three {
+    min-width: 85%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+}
+
+/* @media screen and (max-height: 1024px) {
+  .uppercontainer {
+    min-height: 769px;
+      
+  }
+} */
+/* @media screen and (max-height: 1367px) {
+  .uppercontainer {
+    min-height: 1112px;
+      
+  }
+} */
