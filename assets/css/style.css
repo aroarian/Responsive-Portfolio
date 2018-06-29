@@ -572,16 +572,3 @@ textarea {
     padding-bottom: 30px;
   }
 }
-
-/* @media screen and (max-height: 1024px) {
-  .uppercontainer {
-    min-height: 769px;
-      
-  }
-} */
-/* @media screen and (max-height: 1367px) {
-  .uppercontainer {
-    min-height: 1112px;
-      
-  }
-} */
