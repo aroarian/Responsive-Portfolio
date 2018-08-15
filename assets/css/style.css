@@ -253,6 +253,9 @@ input[type="submit"]:hover {
   padding: 0px;
 }
 
+.links{
+  margin-top: 25px;
+}
 textarea {
   resize: none;
   width: 100%;
